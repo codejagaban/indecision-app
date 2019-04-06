@@ -1,0 +1,16 @@
+html {
+font-size: 62.5%;
+}
+
+body {
+    font-family: 'sfns display', Arial, Helvetica, sans-serif, sans-serif;
+    font-size:$m-size;
+    background-color: $dark-blue;
+}
+button {
+    cursor: pointer;
+
+    &:disabled {
+        cursor: default;
+      }
+  }
